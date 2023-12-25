@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font avesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Hakkında</title>
+    <link rel="stylesheet" href="styles/style.css"> <!--Css dosyasını ekledik -->
+
+</head>
+<!-- ### Visual Studio Cod Kısayolları
+
+- 1: ALT + SHİFT + F = Kodları düzenlemek, sıraya sokar
+- 2: CTRL + ALT + aşağı yukarı ok = İmleci yukarı aşağı büyüterek topluca satırlara yazmamızı sağlar.
+- 3: ALT  + yukarı aşağı ok tuşları = Satırı aşağı yukarı kaydırmak ,taşımak için
+- 4: Yazıyı seçip CTRL + D aynı diğer yazıları da seçiyor. Böylece bu yazıları her yerde değiştirme veya ekleme yapabiliriz.
+- 5: CTRL + SHIFT + K = Satır silmek
+- 6: CTRL + ENTER = Yeni satır ekler: Satır sonuna gitmene gerek kalmaz, shifte de basarsan üst kısma ekler.
+- 7: CTRL + Ö = Otomatik Yorum satırı
+- 8: başlangıçta parantezle uğraşma direk yaz otomatik parantez çıkar
+- 9:yazmak istediğin etiketi yazıp ne kadar lazımsa * ile istediğin sayıyı yazarak oluşturabilirsin -->
+
+<body>
+    <!--! header section start-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/Poyraz Et Lokantası.png" alt="logo"> <!-- logo -->
+        </a>
+        <!-- navbar kısmımız -->
+        <nav class="navbar">
+
+            <a href="index.html">Ana Sayfa</a>
+            <a href=""  class="active">Hakkımızda</a>
+            <a href="menu.html">Menü</a>
+            <a href="galery.html">Lokantamızdan Kareler</a>
+            <a href="contact.html">İletişim</a>
+            <a href="review.html">Müşteri Yorumları</a>
+        </nav>
+        <!-- iconlar -->
+        <div class="button">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="search-here">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/kardens-corbalar-1024x685.jpg" alt="">
+                <div class="content">
+                    <h3>Çorbalar</h3>
+                    <div class="price">50tl</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/Türk-Yemekleri-scaled.jpeg" alt="">
+                <div class="content">
+                    <h3>Ana Yemekler</h3>
+                    <div class="price">100tl</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/secmeli_kahvaltiYeni.png" alt="">
+                <div class="content">
+                    <h3>Kahvaltı</h3>
+                    <div class="price">75tl</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/tatlilar-1.jpg" alt="">
+                <div class="content">
+                    <h3>Tatlılar</h3>
+                    <div class="price">45tl</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Sipariş ver</a>
+        </div>
+
+    </header>
+    <!--! header section end-->
+
+
+    <!--!about section start-->
+    <section class="about">
+        <h1 class="heading"><span>Hakkımızda</span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/rb6f-POYRAZ-ET-LOKANTASI-interior.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Poyraz Et Lokantası'na Hoş Geldiniz !</h3>
+                <br>
+                <p>Bizler, siz değerli misafirlerimize her
+                    öğünde en taze ve en kaliteli malzemelerle hazırlanan
+                    lezzetler sunmaktan gurur duyuyoruz.
+                    Bolu'nun eşsiz doğasından ilham alarak hazırladığımız özel menümüzde,
+                    yöresel tatların yanı sıra Türk mutfağının seçkin lezzetlerini de bulabilirsiniz.</p>
+                <br>
+                <h4>Yerel Lezzetlerin Buluşma Noktası</h4>
+                <p>Bizde lezzetli yemekler yiyebilir ve bunun için uzun süreler beklemenize de gerek yok. Bize uğramanız
+                    bizi mutlu edecektir. Uygun fiyatlar iyi kaliteyle birleşti: Uğrayın ve lokantamızın sizi
+                    büyülemesine tanık olun.</p>
+                <h4>Esnafın Tadı, Aile Sıcaklığı</h4>
+                <p>Poyraz Et Lokantası, sadece bir yemek mekanı değil, aynı zamanda bir aile sıcaklığı ve samimiyetinin
+                    buluşma noktasıdır. Sizleri içtenlikle karşılamak ve sofralarınızı en özel şekilde donatmak için
+                    buradayız. Her bir yemeğimiz, sevgiyle hazırlanmış ve sizin için özenle sunulmuştur.</p>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="content">
+                <h4>Aile Lokantasının Sıcaklığı</h4>
+                <p>Poyraz Et, sadece yemek sunan bir yer değil, aynı zamanda bir aile evi gibidir. Her misafirimizi
+                    sıcak bir gülümsemeyle karşılıyoruz ve sofralarımızı paylaşırken samimiyetimizi hissettiriyoruz.
+                    Sizleri ailemizin bir parçası olarak görmekten mutluluk duyarız.</p>
+                <h4>Bize Ulaşın</h4>
+                <p>Sizleri Poyraz Et Lokantası'nın lezzetli dünyasına davet ediyoruz. İletişim bilgilerimizle veya
+                    ziyaret adresimizle bize kolayca ulaşabilir, rezervasyon yapabilirsiniz. Size unutulmaz bir yemek
+                    deneyimi yaşatmak için buradayız!</p>
+
+                <p> Poyraz Et Lokantası, lezzetin ve samimiyetin bir araya geldiği özel bir mekan. Sizi ve
+                    sevdiklerinizi ağırlamaktan büyük bir mutluluk duyacağız.</p>
+                    
+            </div>
+
+            <div class="image">
+                <img src="images/orta çekim.png" alt="">
+            </div>
+            <div class="content">
+            <h4>Kaynaklar</h4>
+            <pre>      https://tur.animalia-life.club/en-iyi-restoran-logo-tasar%C4%B1m%C4%B1
+                https://nicelocal.biz.tr/bolu/restaurants/poyraz_et_lokantasi/
+                https://restaurantguru.com/Sanayi-Kiraathanesi-Bolu#gallery
+                https://www.dir.gen.tr/lcl/44127-poyraz-et-lokantasi.html
+                https://www.ankarakaradenizyemekleri.com/
+                https://blog.obilet.com/en-lezzetli-turk-yemekleri/
+                https://www.lezzet.com.tr/lezzetten-haberler/denizli-kahvalti-mekanlari
+                https://bigbaker.com.tr/qr-menu-g-o-p/kahvalti/
+                https://www.google.com/maps/place/POYRAZ+ET+LOKANTASI/@40.7389451,31.6250689,17
+                z/data=!3m1!4b1!4m6!3m5!1s0x409d3f231d2bb169:0x16bf2a8a2ea68e70!8m2!3d40.7389451!4d31.6276438!16s%2Fg%2F11b7q59bdm?entry=ttu
+            </pre>
+        </div>
+        </div>
+    </section>
+    <!--!about section end-->
+
+
+    <!--! footer section start -->
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Arama">
+            <button class="btn btn-primary">arama</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="index.html">Ana Sayfa</a>
+            <a href="about.html" class="active">Hakkımızda</a>
+            <a href="menu.html">Menü</a>
+            <a href="galery.html">Lokantamızdan Kareler</a>
+            <a href="contact.html">İletişim</a>
+            <a href="review.html">Müşteri Yorumları</a>
+        </div>
+        <div class="credit">
+            created by <span>Furkan Türker</span>
+        </div>
+    </section>
+    <!--! footer section end -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

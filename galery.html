@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font avesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Poyraz Et Lokantası</title>
+    <link rel="stylesheet" href="styles/style.css"> <!--Css dosyasını ekledik -->
+
+</head>
+<!-- ### Visual Studio Cod Kısayolları
+
+- 1: ALT + SHİFT + F = Kodları düzenlemek, sıraya sokar
+- 2: CTRL + ALT + aşağı yukarı ok = İmleci yukarı aşağı büyüterek topluca satırlara yazmamızı sağlar.
+- 3: ALT  + yukarı aşağı ok tuşları = Satırı aşağı yukarı kaydırmak ,taşımak için
+- 4: Yazıyı seçip CTRL + D aynı diğer yazıları da seçiyor. Böylece bu yazıları her yerde değiştirme veya ekleme yapabiliriz.
+- 5: CTRL + SHIFT + K = Satır silmek
+- 6: CTRL + ENTER = Yeni satır ekler: Satır sonuna gitmene gerek kalmaz, shifte de basarsan üst kısma ekler.
+- 7: CTRL + Ö = Otomatik Yorum satırı
+- 8: başlangıçta parantezle uğraşma direk yaz otomatik parantez çıkar
+- 9:yazmak istediğin etiketi yazıp ne kadar lazımsa * ile istediğin sayıyı yazarak oluşturabilirsin -->
+
+<body>
+    <!--! header section start-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/Poyraz Et Lokantası.png" alt="logo"> <!-- logo -->
+        </a>
+        <!-- navbar kısmımız -->
+        <nav class="navbar">
+
+            <a href="index.html">Ana Sayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="menu.html">Menü</a>
+            <a href="galery.html"class="active">Lokantamızdan Kareler</a>
+            <a href="contact.html">İletişim</a>
+            <a href="review.html">Müşteri Yorumları</a>
+        </nav>
+        <!-- iconlar -->
+        <div class="button">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="search-here">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/kardens-corbalar-1024x685.jpg" alt="">
+                <div class="content">
+                    <h3>Çorbalar</h3>
+                    <div class="price">50tl</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/Türk-Yemekleri-scaled.jpeg" alt="">
+                <div class="content">
+                    <h3>Ana Yemekler</h3>
+                    <div class="price">100tl</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/secmeli_kahvaltiYeni.png" alt="">
+                <div class="content">
+                    <h3>Kahvaltı</h3>
+                    <div class="price">75tl</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/tatlilar-1.jpg" alt="">
+                <div class="content">
+                    <h3>Tatlılar</h3>
+                    <div class="price">45tl</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Sipariş ver</a>
+        </div>
+
+    </header>
+    <!--! header section end-->
+
+     <!--! galeri section start -->
+     <section class="galeri">
+        <h1 class="heading"><span>Lokantamızdan Kareler</span></h1>
+
+        <div class="gallery cf">
+
+            <div>
+                <img src="images/yepisyeni.jpg" style="width:30rem"  />
+            </div>
+            <div>
+                <img src="images/içÇekim.avif" style="width:30rem"  />
+            </div>
+            <div>
+                <img src="images/en dış çekim.avif" style="width:30rem"  />
+            </div>
+            <div>
+                <img src="images/KApı çekimi.avif "  style="width:30rem" />
+            </div>
+            <div>
+                <img src="images/usta döner takıyor.jpg" style="width:30rem"  />
+            </div>
+            <div>
+                <img src="images/şefler.jpeg" style="width:30rem"  />
+            </div>
+            <div>
+                <img src="images/tatlıAlanı.avif" style="width:30rem"  />
+            </div>
+            <div>
+                <img src="images/ters açı.jpeg"style="height: 30rem; width: 40rem;" />
+            </div>
+            <div>
+                <img src="images/yan açı.png"style="height: 30rem; width: 40rem;" />
+            </div>
+            <div>
+                <img src="images/ekip.jpg"style="height: 30rem; width: 40rem;" />
+            </div>
+            <div>
+                <img src="images/müşteri.jpeg" style="height: 30rem; width: 40rem;"  />
+            </div>
+            <div>
+                <img src="images/orta çekim.png" style="height: 30rem; width: 40rem;"  />
+            </div>
+            <div>
+                <img src="images/weryemek.jpeg"  style="height: 30rem; width: 40rem;" />
+            </div>
+        </div>
+
+       
+    </section>
+    <!--! footer section start -->
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Arama">
+            <button class="btn btn-primary">arama</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="index.html">Ana Sayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="menu.html">Menü</a>
+            <a href="galery.html" class="active">Lokantamızdan Kareler</a>
+            <a href="contact.html">İletişim</a>
+            <a href="review.html">Müşteri Yorumları</a>
+        </div>
+        <div class="credit">
+            created by <span>Furkan Türker</span>
+        </div>
+    </section>
+    <!--! footer section end -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
